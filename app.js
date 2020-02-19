@@ -4,6 +4,6 @@ const express = require('express')
 const app = express()
 const port = 3002
 
-app.get('/', (req, res) => res.send('<h1>Hello World!</h1>'))
+app.get('/', (req, res) => res.send('Hello World!'))
 
 app.listen(port, () => console.log(`test app listening on port ${port}!`))
